@@ -285,3 +285,16 @@ header ul li a:hover {
   background: white;
   color: #34ace0;
 }
+
+/*********** Footer ***************/
+
+footer {
+  background-color: #444;
+  padding: 5rem 1rem;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}
