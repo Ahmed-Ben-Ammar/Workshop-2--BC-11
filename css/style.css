@@ -31,6 +31,11 @@ strong {
   font-weight: 400;
 }
 
+.bg-dark {
+  background: #333;
+  color: white;
+}
+
 /* vp + header */
 .vp-container {
   min-height: 100vh;
@@ -166,4 +171,33 @@ header ul li a:hover {
 .offer-elem-text {
   text-align: center;
   padding: 2rem;
+}
+
+/**** Section Who *****/
+
+.who {
+  display: flex;
+  flex-flow: nowrap;
+}
+
+.who-content-img img {
+
+  width: 100%;
+}
+
+.who-content-img {
+  flex: 1;
+}
+
+.who-content-text {
+  flex: 1;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.who-content-text p {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
 }
